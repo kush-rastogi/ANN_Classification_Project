@@ -1,74 +1,40 @@
 # ANN_Classification_Project
 # 📌 Overview
-This project applies a feedforward Artificial Neural Network to solve an NLP-related problem. It may involve tasks like:
-
-Text classification
-
-Sentiment analysis
-
-Spam detection
-
-Named entity recognition
-(Select one or more, based on what you’ve done)
-
-The goal is to understand how simple neural architectures can be used effectively for NLP tasks and compare the performance with more complex models if needed.
+This project applies a feedforward Artificial Neural Network (ANN) to tackle the task of Named Entity Recognition (NER), a core challenge in Natural Language Processing (NLP). The goal is to identify and classify named entities—such as people, organizations, locations, and dates—within unstructured text. By leveraging labeled data and supervised learning, the ANN model is trained to recognize patterns in word sequences and accurately tag entities using the BIO (Begin, Inside, Outside) annotation format. This project demonstrates how even simple neural network architectures can effectively perform foundational NLP tasks.
 
 # 🚀 Technologies Used
 Python
-
-TensorFlow / Keras (or PyTorch, if applicable)
-
+TensorFlow / Keras
 NumPy, Pandas
-
-NLTK / spaCy / scikit-learn (whichever used)
-
+NLTK / scikit-learn
 Matplotlib / Seaborn (for visualization)
 
 # 📊 Dataset
-Briefly describe your dataset:
-
-Source (e.g., Kaggle, UCI, custom dataset)
-
-Size (number of samples, text length)
-
-Preprocessing steps (e.g., tokenization, stopword removal, vectorization)
+Source (custom dataset)
+Size (6,84,858 bytes)
+Preprocessing steps (tokenization, stopword removal, vectorization)
 
 # 🏗️ Model Architecture
-Summarize your ANN architecture:
 
-Input layer (e.g., embedding/vectorized input)
-
-Hidden layers (number of layers and neurons)
-
-Activation functions (e.g., ReLU, sigmoid)
-
-Output layer (e.g., softmax for classification)
+Input layer (embedding/vectorized input)
+Hidden layers
+Activation functions (ReLU, sigmoid)
+Output layer (softmax for classification)
 
 # 🧪 Training & Evaluation
-Loss function (e.g., categorical cross-entropy)
-
-Optimizer (e.g., Adam)
-
-Metrics used (accuracy, F1-score, etc.)
-
+Loss function (categorical cross-entropy)
+Optimizer (Adam)
+Metrics used (accuracy, F1-score)
 Training/Validation accuracy & loss plots
-
 Final model performance on test data
 
 # 📈 Results
-Share key outcomes:
-
+# key outcomes:
 Accuracy or other performance metrics
-
-Confusion matrix (if applicable)
-
 Insights or observations
 
 # 📚 Future Work
-Try different architectures (e.g., RNN, LSTM)
-
-Use pre-trained word embeddings (e.g., Word2Vec, GloVe)
-
+Try different architectures (RNN, LSTM)
+Use pre-trained word embeddings (Word2Vec, GloVe)
 Hyperparameter tuning
-
 Explore transformer models
