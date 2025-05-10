@@ -1,4 +1,6 @@
 # ANN_Classification_Project
+# Project Recording:
+https://drive.google.com/file/d/1hPO2VsIgxKAr-oF5H3HGj74y2H_I1mPa/view?usp=drive_link
 # 📌 Overview
 This project applies a feedforward Artificial Neural Network (ANN) to tackle the task of Named Entity Recognition (NER), a core challenge in Natural Language Processing (NLP). The goal is to identify and classify named entities—such as people, organizations, locations, and dates—within unstructured text. By leveraging labeled data and supervised learning, the ANN model is trained to recognize patterns in word sequences and accurately tag entities using the BIO (Begin, Inside, Outside) annotation format. This project demonstrates how even simple neural network architectures can effectively perform foundational NLP tasks.
 
